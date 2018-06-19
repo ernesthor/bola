@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button, Alert } from 'react-bootstrap';
 
-export default class News extends Component {
+export default class ContactUs extends Component {
   render () {
     return (
       <Grid>

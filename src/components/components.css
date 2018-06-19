@@ -1,8 +1,30 @@
 /*--global--*/
 
+html, body {
+  height: 100%;
+  background-color: #fafafa;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 /*--navbar--*/
 .navbar-default {
   margin: 0;
+  background-color: #000;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  border: none;
+}
+.navbar-brand {
+  padding: 0;
+  background-color: #000;
+}
+.bola-logo {
+  width: auto;
+  height: 50px;
+  margin: 0;
+  padding: 10px;
 }
 
 /*--banner--*/
@@ -12,11 +34,77 @@
   text-align: center;
   color: white;
 }
-.header{
+.banner-header{
   position: absolute;
   top: 25%;
-  left: 16px;
+  left: 150px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  text-shadow: 1px 1px 1px #000;
 }
-.banner-btn {
 
+.banner-header h1{
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.banner-header h2{
+  font-size: 30px;
+}
+
+.banner-btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+}
+/*--scores--*/
+.scores-content h4{
+  margin-top:0;
+}
+.scores-content{
+  height:75px;
+  background-color: #c1c1c1;
+  color: #000;
+}
+/*--earn--*/
+.earn-text {
+  font-size: 20px;
+}
+.earn-img{
+  width: auto;
+  height: 250px;
+}
+.earn-btn{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+/*--vid--*/
+.vid-content{
+  height: auto;
+}
+.vid-img2{
+  width:auto;
+  height: 250px;
+}
+
+
+/*--news--*/
+.news-content{
+  height: 400px;
+}
+/*--footer--*/
+
+.footer {
+  background-color: #000;
+  margin: 0;
+}
+.footer-logo {
+  height: 50px;
+  width: auto;
+}
+/*--globalchangeable--*/
+
+.header{
+  font-family: 'Lato',  sans-serif;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #000;
 }

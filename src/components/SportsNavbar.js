@@ -14,7 +14,7 @@ export default class SportsNavbar extends Component {
           <Nav>
             <NavDropdown eventKey={1} componentClass={Link} title="PBA" id="nav-dropdown">
                 <MenuItem eventKey={1.1} href="/pba" to="/pba">PBA</MenuItem>
-                <MenuItem eventKey={1.2} href="/pba/dleague" to="/pba/dleague">D-League</MenuItem>
+                <MenuItem eventKey={1.2} href="/dleague" to="/dleague">D-League</MenuItem>
             </NavDropdown>
             <NavItem eventKey={2} componentClass={Link} href="/pvl" to="/pvl">
               PVL
