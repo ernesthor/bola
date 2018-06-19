@@ -1,0 +1,22 @@
+/*--global--*/
+
+/*--navbar--*/
+.navbar-default {
+  margin: 0;
+}
+
+/*--banner--*/
+
+.carousel-content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.header{
+  position: absolute;
+  top: 25%;
+  left: 16px;
+}
+.banner-btn {
+
+}
