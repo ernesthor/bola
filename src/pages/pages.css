@@ -1,0 +1,63 @@
+.bola-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bola-content {
+  flex: 1 0 auto;
+}
+
+/*--form--*/
+.signup-btn {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+  height: 50px;
+  width: 250px;
+  float: right;
+}
+
+.signup-btn:hover {
+  cursor: pointer;
+}
+
+.login-btn {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  border: 0;
+  height: 50px;
+  width: 100px;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+}
+
+.form-captcha {
+  transform: scale(0.9);
+  -webkit-transform:scale(0.9);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-header{
+  font-family: 'Lato',  sans-serif;
+  font-size: 40px;
+  color: #000;
+  text-shadow: 2px 2px 2px #777;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

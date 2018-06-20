@@ -7,30 +7,22 @@ const bolaLogo = './assets/bola-full-logo.png'
 export default class Footer extends Component {
   render () {
     return (
-        <footer className="footer">
+        <footer className="footer white">
           <Grid fluid={true}>
-            <Row>
-              <Col md={4}>
+            <Row className="center">
+              <Col md={2}>
                 <Link to="/"><img src={bolaLogo} className="footer-logo"/></Link>
               </Col>
               <Col md={4}>
-
+                <span className="footer-copy">Bola Sports App &#169; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;</span>
+                <span className="footer-copy">Designed by: <strong> ThorTechTips </strong> </span>
               </Col>
-              <Col md={4}>
+              <Col md={6} className="footer-menu">
                 <Link href="/" to="/"> Home </Link>
                 <Link href="/about" to="/about"> About </Link>
                 <Link href="/contact" to="/contact"> Contact Us </Link>
                 <Link href="/terms" to="/terms"> Terms and Condition </Link>
                 <Link href="/privacy" to="/privacy"> Privacy </Link>
-              </Col>
-            </Row>
-            <Row>
-              <span><hr/></span>
-              <Col md={6}>
-              <span className="footer-copy">Bola Sports App &#169; {new Date().getFullYear()}&nbsp;&nbsp;&nbsp;</span>
-              </Col>
-              <Col md={6}>
-              <span className="footer-copy">Designed by: <strong> ThorTechTips </strong> </span>
               </Col>
             </Row>
           </Grid>

@@ -4,6 +4,7 @@ import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import './components.css';
 
 const Banner1 = './assets/header.jpg';
 const Banner2 = './assets/header2.jpg';
@@ -12,7 +13,8 @@ const rewards = './assets/rewards.png';
 const wager = './assets/wager.png';
 const youtube = './assets/youtube.png';
 
-export default class Home extends Component {
+
+export default class Landing extends Component {
   render () {
     return (
         <Grid fluid={true}>
@@ -22,7 +24,7 @@ export default class Home extends Component {
               <div className="carousel-content">
                 <img src={Banner1} />
                 <div className="banner-header">
-                  <h1> Be updated on Scores, News, and Others</h1>
+                  <h1> <span className="yellow">Always</span> <span className="red">be</span> <span className="blue">updated</span></h1>
                   <h2> Where ever you are. Sign Up now! </h2>
                   <Button className="banner-btn" href="/signup" to="/signup"> Sign Up </Button>
                 </div>
@@ -30,7 +32,7 @@ export default class Home extends Component {
               <div className="carousel-content">
                 <img src={Banner2} />
                 <div className="banner-header">
-                  <h1> Fast and Easy </h1>
+                  <h1> <span className="yellow">Fast</span> <span className="red">and</span> <span className="blue">Easy</span></h1>
                   <h2> Just go to our site or download our app </h2>
                   <Button className="banner-btn" href="/signup" to="/signup"> Sign Up </Button>
                 </div>
@@ -38,7 +40,7 @@ export default class Home extends Component {
               <div className="carousel-content">
                 <img src={Banner3} />
                 <div className="banner-header">
-                  <h1> Personalize your account </h1>
+                  <h1> <span className="yellow">Personalize</span> <span className="red">your</span> <span className="blue">account</span></h1>
                   <h2> You can choose team or league to follow </h2>
                   <Button className="banner-btn" href="/signup" to="/signup"> Sign Up </Button>
                 </div>

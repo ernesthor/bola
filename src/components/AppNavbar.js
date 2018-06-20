@@ -18,10 +18,10 @@ export default class AppNavbar extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} componentClass={Link}  href="/signup" to="/signup">
+            <NavItem eventKey={1} componentClass={Link}  className="app-li" href="/signup" to="/signup">
               Sign Up
             </NavItem>
-            <NavItem eventKey={2} componentClass={Link}  href="/login" to="/login">
+            <NavItem eventKey={2} componentClass={Link}  className="app-li" href="/login" to="/login">
               Log In
             </NavItem>
           </Nav>
